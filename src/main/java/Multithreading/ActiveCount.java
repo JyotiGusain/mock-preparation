@@ -4,7 +4,14 @@ Counting number od active threads
  */
 
 public class ActiveCount extends Thread {
-    ActiveCount(String threadname, ThreadGroup tgob) {
+    /*
+    To create child threads we build a separate class called
+    ourthread, we invoke the constructor of thread which takes 2 parameter(threadname,threadgroup)
+     */
+    ActiveCount(String threadname, ThreadGroup tgob)
+    /*
+    ThreadGroup class is used to create the group of threads.
+     */ {
         super(tgob, threadname);
         start();
     }
