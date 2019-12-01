@@ -1,6 +1,6 @@
 package String;
 
-public class JavaStringMethods {
+public class JavaStringMethod {
     public static void main(String[] args) {
         String str = "Welcome to the ";
         String str1 = "Java ";
