@@ -2,6 +2,7 @@ package Ducat;
 
 public class ArrayPattern3 {
     public static void main(String[] args) {
+
         /*
         5 4 3 2 1
         5 4 3 2 1
