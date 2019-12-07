@@ -1,4 +1,4 @@
-package Ducat;
+package com.mock.preparation.Ducat;
 
 
 public class MaxArray {

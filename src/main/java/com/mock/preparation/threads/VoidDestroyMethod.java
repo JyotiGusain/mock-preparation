@@ -1,4 +1,4 @@
-package Multithreading;
+package com.mock.preparation.threads;
 
 public class VoidDestroyMethod extends Thread {
     VoidDestroyMethod(String threadname, ThreadGroup a) {

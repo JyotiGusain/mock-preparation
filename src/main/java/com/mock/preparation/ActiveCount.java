@@ -1,4 +1,4 @@
-package Multithreading;
+package com.mock.preparation;
 /*
 Counting number od active threads
  */
