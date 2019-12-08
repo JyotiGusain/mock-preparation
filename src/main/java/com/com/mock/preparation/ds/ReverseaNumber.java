@@ -1,4 +1,4 @@
-package mock.preparation.ds;
+package com.mock.preparation.ds;
 
 import java.util.Scanner;
 

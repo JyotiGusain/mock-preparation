@@ -1,4 +1,4 @@
-package com.mock.preparation;
+package com.mock.preparation.threads;
 /*
 Counting number od active threads
  */

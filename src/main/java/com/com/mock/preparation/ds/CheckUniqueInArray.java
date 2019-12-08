@@ -1,4 +1,4 @@
-package mock.preparation.ds;
+package com.mock.preparation.ds;
 
 public class CheckUniqueInArray {
     public static void main(String[] args) {

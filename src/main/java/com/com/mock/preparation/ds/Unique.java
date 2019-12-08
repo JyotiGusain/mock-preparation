@@ -1,4 +1,6 @@
-package mock.preparation.ds;
+package com.mock.preparation.ds;
+
+import java.util.Arrays;
 
 public class Unique {
 
@@ -24,7 +26,7 @@ public class Unique {
 
     public static void main(String[] args) {
         int arr[] = {6, 6, 7, 2, 3, 1, 4, 45, 21, 3, 4};
-        // Arrays.sort(arr);
+        Arrays.sort(arr);
         unique(arr);
     }
 }

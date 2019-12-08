@@ -1,4 +1,4 @@
-package mock.preparation.ds;
+package com.mock.preparation.ds;
 
 public class FindDuplicateElement {
     public static void main(String[] args) {
