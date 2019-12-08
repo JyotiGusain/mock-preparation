@@ -21,7 +21,7 @@ public class Factorial {
 
             //using recursion
            int factorial2 = factorialUsingRecursion(num);
-            System.out.println("factorial of given number: " + num + " using recursion is: " + factorial2);
+            System.out.println("factorial of given number: "+num+" using recursion is: "+factorial1);
 
         }
         catch (InputMismatchException e){
