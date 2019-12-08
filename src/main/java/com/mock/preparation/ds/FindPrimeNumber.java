@@ -1,26 +1,20 @@
 package mock.preparation.ds;
 
-import java.util.Scanner;
-
 public class FindPrimeNumber {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the number: ");
-        int num = scanner.nextInt();
-        int temp = 0;
+        int num = 5;
+        boolean isPrime = true;
 
-        for (int i = 0; i < num; i++) {
-            for (int j = 0; j < num; j++) {
-                if (num % 2 == 0) {
-                    temp = temp + 1;
-                }
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                isPrime = false;
+                break;
             }
-
         }
-        if (temp > 0) {
-            System.out.println("Number is not prime");
+        if (isPrime) {
+            System.out.println(num + " is a prime number");
         } else {
-            System.out.println("Number is prime");
+            System.out.println(num + " is not a prime number");
         }
 
 

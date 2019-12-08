@@ -1,28 +1,20 @@
 package mock.preparation.ds;
 
-import java.util.Scanner;
-
 public class EvenOddArray {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        scanner.nextInt();
-        try {
-            int[] a = {5, 6, 7, 8, 9, 10};
-            for (int i = 0; i <= a.length; i++) {
-                for (int j = 0; j <= a.length; j++) {
-                    if (a[i] % 2 == 0) {
-                        System.out.println("It is an even number\n");
-                    } else {
-                        System.out.println("It is an odd number\n");
-                    }
-                }
-
-
+        int[] a = {1, 3, 2, 4, 5, 7, 6};
+        System.out.println("Even numbers:");
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] % 2 == 0) {
+                System.out.println(a[i]);
             }
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println();
+        }
+        System.out.println("Odd Numbers");
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] % 2 != 0) {
+                System.out.println(a[i]);
+            }
         }
     }
+
 }
-
-

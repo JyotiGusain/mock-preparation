@@ -2,18 +2,18 @@ package mock.preparation.ds;
 
 public class FindArmstrongNumber {
     public static void main(String[] args) {
-        int num = 370;
-        int temp, total = 0;
+        int num = 30, p, rem = 0, total = 0;
+        p = num;
 
         while (num != 0) {
-            temp = num % 10;
-            total = total * temp * temp * temp;
-            num = num / 10;
+            rem = num % 10;
+            total = rem * rem * rem + total;
+            num /= 10;
         }
-        if (total == num) {
-            System.out.println("Is Armstrong");
+        if (total == p) {
+            System.out.println(p + " is an Armstrong Number");
         } else {
-            System.out.println("Not an armstrong");
+            System.out.println(p + " is not an Armstrong Number");
         }
     }
 }
