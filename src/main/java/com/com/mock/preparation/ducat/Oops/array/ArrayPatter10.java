@@ -1,6 +1,13 @@
 package com.mock.preparation.ducat.Oops.array;
 
 public class ArrayPatter10 {
+    /*
+    *****
+    22222
+    *****
+    44444
+    *****
+     */
     public static void main(String[] args) {
         boolean isStar = true;
         int k = 2;
