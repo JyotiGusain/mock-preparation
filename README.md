@@ -1,2 +1,2 @@
 # mock-preparation
-~This project contrains basic java program for beginer
+~This project contains basic java program for beginer
