@@ -1,4 +1,4 @@
-package com.mock.preparation.ducat.Oops.array;
+package com.mock.preparation.ducat.Oops.arrayassignment;
 
 public class ArrayPatter10 {
     /*
@@ -17,7 +17,7 @@ public class ArrayPatter10 {
                 isStar = false;
                 System.out.println();
             } else {
-                display("" + k);
+                display(" " + k);
                 k = k + 2;
                 isStar = true;
                 System.out.println();

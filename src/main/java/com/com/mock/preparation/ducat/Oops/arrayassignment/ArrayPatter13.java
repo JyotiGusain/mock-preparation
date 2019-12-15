@@ -1,4 +1,4 @@
-package com.mock.preparation.ducat.Oops.array;
+package com.mock.preparation.ducat.Oops.arrayassignment;
 
 public class ArrayPatter13 {
     public static void main(String[] args) {
