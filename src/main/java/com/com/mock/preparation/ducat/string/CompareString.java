@@ -17,7 +17,7 @@ Enter the first string: World
 Enter the second String: world
 World compareTo world is: -32
 (In case 2 if we use compareTo() method to compare both string we got -32,
-this is because both the strings ASCII value has a diifernce of -32)
+this is because both the strings ASCII value has a differnce of -32)
 eg:ASCII value of W is 87
    ASCII value of w is 119
    Differnce of both the value is -32( 87- 119)
