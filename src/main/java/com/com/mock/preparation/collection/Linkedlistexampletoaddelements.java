@@ -54,5 +54,6 @@ public class Linkedlistexampletoaddelements {
         ll.addLast("Shaym");
         System.out.println("After first and the last elements:  " + ll);
 
+
     }
 }
