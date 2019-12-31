@@ -8,6 +8,9 @@ import java.util.RandomAccess;
 /*
 About RandomAccess
 
+    Every Collection have already implements Serializable and Cloneable interfaces
+    Only ArrayList and Vector implements RandonAccess interface
+
     true
     true
     true
@@ -18,8 +21,8 @@ public class ArrayListDemo1 {
         ArrayList al = new ArrayList();
         LinkedList ll = new LinkedList();
         System.out.println(al instanceof Serializable);
-        System.out.println(ll instanceof Cloneable);// Collection implements Serializable and Cloneable interfaces
+        System.out.println(ll instanceof Cloneable);// (true) Every Collection have already implements Serializable and Cloneable interfaces
         System.out.println(al instanceof RandomAccess);
-        System.out.println(ll instanceof RandomAccess);// Only ArrayList and Vector implements RandonAccess interface
+        System.out.println(ll instanceof RandomAccess);//(false) Only ArrayList and Vector implements RandonAccess interface
     }
 }
