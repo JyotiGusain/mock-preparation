@@ -11,6 +11,9 @@ If I won't comment  //t.add(new Integer(10));
 then the exception will be thrown as ClassCastException
 because TreeSet does not allow to insert Heterogeneous objects.
 
+ //t.add(null);
+For non empty tree set if we are trying to null then we will get NullPointerException
+
 */
 public class TreeSetExample {
     public static void main(String[] args) {
@@ -23,6 +26,8 @@ public class TreeSetExample {
         t.add("M");
         t.add("o");
         //t.add(new Integer(10));
+        //t.add(null);
+        //t.add("z");
         System.out.println(t);
     }
 }
