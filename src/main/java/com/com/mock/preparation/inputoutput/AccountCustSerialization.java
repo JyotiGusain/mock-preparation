@@ -1,4 +1,13 @@
 package com.mock.preparation.inputoutput;
+/*
+During default serialization there may be a chance of loss of information due to transient keyword.
+To recover this loss of information we should go for customized serialization.
+
+
+Default Serialization --> Tanishq null
+
+Customized Serialization --> Tanishq Bisht
+ */
 
 import java.io.*;
 
