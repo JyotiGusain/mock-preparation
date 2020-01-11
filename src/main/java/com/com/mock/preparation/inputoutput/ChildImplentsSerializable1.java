@@ -1,6 +1,6 @@
 package com.mock.preparation.inputoutput;
 /*
-When child class implemets and also in parent,child constructor called.
+When child class implemets Serializable and also in parent,child constructor called.
 
 Animal Constructor called
 Dog Constructor called
