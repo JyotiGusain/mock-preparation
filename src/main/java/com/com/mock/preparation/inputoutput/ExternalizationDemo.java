@@ -1,5 +1,8 @@
 package com.mock.preparation.inputoutput;
-
+/*
+Default constructor
+Tanishq 12345 0
+ */
 import java.io.*;
 
 public class ExternalizationDemo implements Externalizable {
