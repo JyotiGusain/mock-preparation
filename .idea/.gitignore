@@ -1,2 +1,23 @@
 # Default ignored files
 /workspace.xml
+target/
+ bin/
+ !.mvn/wrapper/maven-wrapper.jar
+
+ ### STS ###
+ .apt_generated
+ .classpath
+ .factorypath
+ .project
+ .settings
+ .springBeans
+
+ ### IntelliJ IDEA ###
+ .idea
+ *.iws
+ *.iml
+ *.ipr
+
+ ### NetBeans ###
+ .idea/
+libraries/

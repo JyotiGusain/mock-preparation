@@ -13,7 +13,7 @@ public class MinMax2DArray {
             }
             return max;
         } catch (NullPointerException e) {
-            System.out.println("Eception Occured");
+            System.out.println("Exception Occured");
             return -1;
         }
 

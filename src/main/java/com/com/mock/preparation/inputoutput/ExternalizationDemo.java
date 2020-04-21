@@ -47,5 +47,4 @@ public class ExternalizationDemo implements Externalizable {
     }
 }
 
-//bye bye
 

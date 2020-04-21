@@ -39,6 +39,15 @@ class Student {
         this.name = name;
         this.rollno = rollno;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", rollno=" + rollno +
+                '}';
+    }
 }
 
 public class ArrayListDemo2 {
@@ -56,11 +65,10 @@ public class ArrayListDemo2 {
         al.add(s4);
         al.add(s5);
 
+
         Iterator itr = al.iterator();
         while (itr.hasNext()) {
-            Student st = (Student) itr.next();
-
-            System.out.println(" \nname: " + st.name + " \nage: " + st.age + " \nrollno: " + st.rollno);
+            System.out.println(itr.next());
         }
 
 

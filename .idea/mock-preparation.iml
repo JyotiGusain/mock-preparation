@@ -18,5 +18,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="h2-1.4.199" level="project" />
+    <orderEntry type="library" name="hibernatejar" level="project" />
   </component>
 </module>
